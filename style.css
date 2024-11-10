@@ -1,0 +1,70 @@
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    /* Optional: removes default margin */
+}
+
+body {
+    background-image: url("./images/image5.jpg");
+    /* background: linear-gradient(135deg, #6a11cb, #2575fc); */
+
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: serif;
+
+}
+
+.container {
+    /* width: 500px;
+    height: 250px; */
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    backface-visibility: visible;
+    position: absolute;
+    left: 15%;
+    transition: transform 1s ease;
+
+    /* bottom:40% */
+}
+
+.container:hover {
+    transform: scale(0.95);
+    box-shadow: 20px 20px 50px rgba(43, 3, 186, 0.3);
+}
+
+button {
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(to right, rgb(227, 36, 211), rgb(24, 174, 239));
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.container h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.container p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button:hover {
+    background: linear-gradient(to right, rgb(82, 183, 227), rgb(223, 45, 172));
+}
