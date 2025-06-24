@@ -7,13 +7,13 @@ body {
 }
 
 body {
-    background-image: url("./images/image5.jpg");
+    background-image: url("./images/Ai_Assistant_photo.jpg");
     /* background: linear-gradient(135deg, #6a11cb, #2575fc); */
 
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
-    color: white;
+    color: rgb(242, 14, 135);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@ body {
     justify-content: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.6);
-    backface-visibility: visible;
+    /* backface-visibility: visible; */
     position: absolute;
     left: 15%;
     transition: transform 1s ease;
